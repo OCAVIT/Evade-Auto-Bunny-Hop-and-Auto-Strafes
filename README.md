@@ -18,9 +18,6 @@ Shift toggles autorun
 # AutoJump:
 Space enables auto jump and mouse strafing.
 
-Works in Games with Locked Cursor:
-The scripts are specifically made for games like Roblox Evade, where the mouse cursor is locked and standard AHK solutions don’t work.
-
 # How to start files correctly?:
 First, you need to run the executable file located at: Raw\x64\Debug\Raw.exe
 Only after that should you start EVADE_MAIN.ahk
@@ -31,3 +28,6 @@ You should not close the Raw.exe window while playing; just minimize it. During 
 Click "Code"->"Download ZIP"->Unzip to any empty folder
 
 my Ahk was version 1.1.36.2
+
+Works in Games with Locked Cursor:
+The scripts are specifically made for games like Roblox Evade, where the mouse cursor is locked and standard AHK solutions don’t work.
