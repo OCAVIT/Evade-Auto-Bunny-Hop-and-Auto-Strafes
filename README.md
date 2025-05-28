@@ -29,3 +29,5 @@ You should not close the Raw.exe window while playing; just minimize it. During 
 
 # For those who don't know how to download
 Click "Code"->"Download ZIP"->Unzip to any empty folder
+
+my Ahk was version 1.1.36.2
