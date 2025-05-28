@@ -3,21 +3,21 @@
 SetBatchLines, -1
 SendMode Input
 
-; === НАСТРОЙКИ ===
+; === Settings ===
 ToggleKey   := "Shift"
 ForwardKey  := "w"
 LeftKey     := "a"
 RightKey    := "d"
 JumpKey     := "Space"
 
-; === ПЕРЕМЕННЫЕ ===
+; === Variables ===
 autoRun := false
 groundStrafeState := 0   ; 0 - A, 1 - D
 aDown := false
 dDown := false
 spaceDown := false
 
-; === ХОТКЕИ ===
+; === Hotkeys ===
 Hotkey, % "*" . ToggleKey, ToggleAutoRun
 Hotkey, % "*" . JumpKey, SpaceDown
 Hotkey, % "*" . JumpKey . " up", SpaceUp
@@ -62,7 +62,7 @@ SpaceUp:
     }
 return
 
-; === GROUND STRAFE (только если пробел НЕ зажат) ===
+; === GROUND STRAFE (only if the space bar is NOT clamped) ===
 GroundStrafe:
     if (!autoRun || spaceDown)
         return
@@ -89,7 +89,7 @@ GroundStrafe:
     }
 return
 
-; === MOUSE STRAFE (только если пробел зажат) ===
+; === MOUSE STRAFE (only if you hold down the space bar) ===
 MouseStrafe:
     if (!autoRun || !spaceDown)
         return
@@ -125,7 +125,7 @@ MouseStrafe:
     }
 return
 
-; === АВТОПРЫЖОК (только если пробел зажат) ===
+; === AutoJump (only if you hold down the space bar) ===
 AutoJump:
     if (!autoRun || !spaceDown)
         return
@@ -135,7 +135,7 @@ AutoJump:
     Sleep, 5
 return
 
-; === ОТПУСКАНИЕ ВСЕГО ПРИ ВЫКЛЮЧЕНИИ СКРИПТА ===
+; === RELEASING EVERYTHING WHEN THE SCRIPT IS TURNED OFF ===
 OnExit:
     if (aDown)
         SendInput, {Blind}{%LeftKey% up}
