@@ -23,4 +23,4 @@ The scripts are specifically made for games like Roblox Evade, where the mouse c
 
 # How to start files correctly?:
 First, you need to run the executable file located at: Raw\x64\Debug\Raw.exe
-Only after that should you start Evade_Main.ahk
+Only after that should you start EVADE_MAIN.ahk
