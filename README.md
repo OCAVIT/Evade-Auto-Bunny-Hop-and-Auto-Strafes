@@ -1,11 +1,26 @@
-# Auto Strafes For Games With Locked Cursor
+# Auto Bunny Hop & Auto Strafes for Roblox Evade (and similar games)
 
-Auto Bunny Hop and Auto Strafes for games that lock the cursor, such as Roblox Evade.
+This repository contains open and license-free scripts designed to automate advanced movement in Roblox Evade and other games that lock the mouse cursor.
 
+# Key Features:
+# Auto Bunny Hop:
+Automatically jumps for you when you hold the space bar.
+
+# Auto Strafes:
+Mouse-based strafing: When holding space, the script detects your mouse movement and presses A or D accordingly.
+
+# Ground Strafing:
+Ground strafing: When autorun is active and space is not held, the script alternates A and D for you.
+
+# Auto Run:
+Shift toggles autorun
+
+# AutoJump:
+Space enables auto jump and mouse strafing.
+
+Works in Games with Locked Cursor:
+The scripts are specifically made for games like Roblox Evade, where the mouse cursor is locked and standard AHK solutions don’t work.
+
+# How to start files correctly?:
 First, you need to run the executable file located at: Raw\x64\Debug\Raw.exe 
 Only after that should you start Evade_Main.ahk
-
-Pressing Shift toggles autorun on and off.
-Holding the space bar enables auto jump.
-While in auto jump mode, the script detects your mouse movements and automatically presses the "A" or "D" keys, depending on the direction of your mouse movement.
-Ground strafing is also supported (when you are not holding the space bar but autorun is active, it will spam the A and D keys)
