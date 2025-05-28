@@ -1,4 +1,4 @@
-# Auto-Strafes-For-Games-With-Locked-Cursor
+# Auto Strafes For Games With Locked Cursor
 
 Auto Bunny Hop and Auto Strafes for games that lock the cursor, such as Roblox Evade.
 
